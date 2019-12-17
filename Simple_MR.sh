@@ -85,14 +85,14 @@ else
 	OUT_idx=`fgrep ADD $Outcome`
 	if [ "$OUT_idx" != "" ];
 	then
-		egrep 'ADD|SNP' $Exposure >$OutDIRPrefix/temp	
+		egrep 'ADD|SNP' $Outcome >$OutDIRPrefix/temp	
 		mv $OutDIRPrefix/temp $OutDIRPrefix/Outcome.sig
 	else
 		ln -s $Outcome $OutDIRPrefix/Outcome.sig
 	fi
 	if [ "$EX_idx" != "" ]; 
 	then
-		egrep 'ADD|SNP' $Outcome > $OutDIRPrefix/temp
+		egrep 'ADD|SNP' $Exposure > $OutDIRPrefix/temp
 		mv $OutDIRPrefix/temp $OutDIRPrefix/Exposure.sig
 	else 
 		ln -s $Exposure $OutDIRPrefix/Exposure.sig 
