@@ -19,6 +19,7 @@ Need R library :
 
 
 Require OPTIONS
+| #Option | #Require | #Discription | 
 | :----: | :---: | :-----: |
 | -h/--help | optional |print this help message|
 
