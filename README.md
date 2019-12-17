@@ -22,12 +22,12 @@ Require OPTIONS
 
 | Option | Require | Discription | 
 | :-------: | :---: | :------: |
-| -h, --help | optional |print this help message|
-| -e, <br> --Exposure | require |  Exposure Summary statistics |
-| -o, <br> --Outcome  | require |  Outcome Summary statistics |
-| -d, --OutDIRPrefix | require | Simple MR results out DIR Prefix, Make New Directory, Ansolute Pathway Optional OPTIONS for Exposure LD clumpling |
-| -p, --Presso  | optional | YES or NO defualt YES, Deletion Outlier use MRPRESSO |
-|-P, --plink    | optional | plink 1.9 program download by https://www.cog-genomics.org/plink2 |
+| -h/ --help | optional |print this help message|
+| -e/ <br> --Exposure | require |  Exposure Summary statistics |
+| -o/ <br> --Outcome  | require |  Outcome Summary statistics |
+| -d/ <br --OutDIRPrefix | require | Simple MR results out DIR Prefix, Make New Directory, Ansolute Pathway Optional OPTIONS for Exposure LD clumpling |
+| -p <br> --Presso  | optional | YES or NO defualt YES, Deletion Outlier use MRPRESSO |
+|-P <br> --plink    | optional | plink 1.9 program download by https://www.cog-genomics.org/plink2 |
 
 
 
