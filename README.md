@@ -23,7 +23,6 @@ Require OPTIONS
 | #Option | #Require | #Discription | 
 | :----: | :---: | :-----: |
 | -h/--help | optional |print this help message|
-
 | -e/--Exposure | require |  Exposure Summary statistics |
 | -o/--Outcome  | require |  Outcome Summary statistics |
 | -d/--OutDIRPrefix | require | Simple MR results out DIR Prefix, Make New Directory, Ansolute Pathway Optional OPTIONS for Exposure LD clumpling |
