@@ -32,12 +32,6 @@ Optional OPTIONS for Exposure LD clumpling |
 
 
 
-| 이름   | 설명  | 나이 |
-| ----- | ---- | --- |
-| 김태완  | 아빠  | 40 |
-| 임선영  | 엄마  | 30 |
-| 김민수  | 아들  | 2  |
-
 input summary statistic file format
 
 Any format usefull!
