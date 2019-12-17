@@ -20,19 +20,15 @@ Need R library :
 
 Require OPTIONS
 
--h | --help  <br><br>print this help message
+| -h/--help | optional |print this help message|
+| :----: | :---: | :-----:\
+| -e/--Exposure | require |  Exposure Summary statistics |
+| -o/--Outcome  | require |   Outcome Summary statistics |
 
--e | --Exposure         require   Exposure Summary statistics
-
--o | --Outcome           require    Outcome Summary statistics
-
--d | --OutDIRPrefix       require   Simple MR results out DIR Prefix, Make New Directory, Ansolute Pathway
-Optional OPTIONS for Exposure LD clumpling
-
--p | --Presso        optional   YES or NO defualt YES, Deletion Outlier use MRPRESSO
-
--P | --plink         optional   plink 1.9 program download by https://www.cog-genomics.org/plink2
-
+| -d/--OutDIRPrefix | require | Simple MR results out DIR Prefix, Make New Directory, Ansolute Pathway
+Optional OPTIONS for Exposure LD clumpling |
+| -p/--Presso  |  optional |  YES or NO defualt YES, Deletion Outlier use MRPRESSO |
+|-P/--plink    |     optional   plink 1.9 program download by https://www.cog-genomics.org/plink2 |
 
 
 input summary statistic file format
