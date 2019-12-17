@@ -20,7 +20,7 @@ Need R library :
 
 Require OPTIONS
 
--h | --help ?ts=5 print this help message
+-h | --help * * * print this help message
 
 -e | --Exposure         require   Exposure Summary statistics
 
