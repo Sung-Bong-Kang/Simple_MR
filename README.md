@@ -20,9 +20,9 @@ Need R library :
 
 Require OPTIONS
 
--h | --help                      print this help message
+-h | --help                     print this help message
 
--e | --Exposure       require    Exposure Summary statistics
+-e | --Exposure   require   Exposure Summary statistics
 
 -o | --Outcome        require    Outcome Summary statistics
 
