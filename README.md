@@ -31,11 +31,9 @@ Require OPTIONS
 
 
 
-input summary statistic file format
+input summary statistic file format :
 
 Any format usefull!
-
-CAUTIONS
 
 but file head include by SNP,BETA,SE
 
