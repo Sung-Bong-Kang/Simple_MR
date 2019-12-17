@@ -20,8 +20,8 @@ Need R library :
 
 Require OPTIONS
 
-| ##Option | #Require | #Discription | 
-| :-----: | :---: | :------: |
+| Option | Require | Discription | 
+| :-------: | :---: | :------: |
 | -h, --help | optional |print this help message|
 | -e, --Exposure | require |  Exposure Summary statistics |
 | -o, --Outcome  | require |  Outcome Summary statistics |
