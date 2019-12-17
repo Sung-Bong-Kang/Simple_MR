@@ -18,12 +18,14 @@ PRESSO_results <-mr_presso(BetaOutcome = "Beta_OT", BetaExposure = "Beta_EX", Sd
 			   OUTLIERtest = TRUE,DISTORTIONtest = TRUE,  NbDistribution = 1000,SignifThreshold = 0.05)
 Outlier <-  PRESSO_results$`MR-PRESSO results`$`Distortion Test`$`Outliers Indices`
 print(is.na(Outlier))
-if ((length(Outlier) >0)&(is.na(Outlier) == TRUE )){ 
+if (length(Outlier) >0){
+        if ((is.na(Outlier) != TRUE )|(is.null(Outlier) != TRUE )){
 MERGE <- MERGE[-Outlier,]
-
+        }
 }
 capture.output(PRESSO_results,file=paste(out_dir,"MR_result.txt",sep="/") ,append=TRUE )
 }
+
 MRInputObject <- mr_input(bx = MERGE$Beta_EX, bxse = MERGE$SE_EX, 
 			  by = MERGE$Beta_OT,byse = MERGE$SE_OT,snps = MERGE$SNP)
 
