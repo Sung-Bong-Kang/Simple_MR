@@ -21,7 +21,7 @@ Require OPTIONS
 Optional OPTIONS for Exposure LD clumpling 		
 -p | --Presso        optional YES or NO defualt YES, Deletion Outlier use MRPRESSO
 -P | --plink 	     optional plink 1.9 program download by https://www.cog-genomics.org/plink2 
-
+-b | --bfile         optional plink file format .bed .bim .fam for LD clumping. Used after the -P option.
 
 input summary statistic file format 
 
